@@ -5,6 +5,6 @@ Developed this amazing respsonsive website using WordPress for a major assessmen
 
 ### Note
 
-The courses page is separate from the individual course pages.
+The courses page is separate from the individual course pages.\
 The campus page is separate from the individual campus pages.
 
