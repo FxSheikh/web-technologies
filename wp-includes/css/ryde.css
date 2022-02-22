@@ -1,0 +1,210 @@
+/* Styling for Ryde Campus page */
+
+#pgc-261-0-0,
+#pgc-261-2-0,
+#pgc-261-4-0,
+#pgc-86-0-0 {
+	width: 100%;
+}
+
+#pg-261-0,
+#pg-261-1,
+#pg-261-2,
+#pg-261-3,
+#pg-261-4,
+#pg-261-5,
+#pl-261 .so-panel {
+	margin-bottom: 30px;
+}
+
+#pgc-261-1-0,
+#pgc-261-1-1 {
+	width: calc(50% - (0.5 * 30px));
+}
+
+#pgc-261-3-0,
+#pgc-261-3-1,
+#pgc-261-3-2,
+#pgc-261-3-3 {
+	width: calc(25% - (0.75 * 30px));
+}
+
+#pgc-261-5-0,
+#pgc-261-5-1,
+#pgc-261-5-2 {
+	width: calc(33.3333% - (0.66666666666667 * 50px));
+}
+
+#pgc-261-6-0 {
+	width: calc(61.8034% - (0.38196600790794 * 30px));
+}
+
+#pgc-261-6-1 {
+	width: calc(38.1966% - (0.61803399209206 * 30px));
+}
+
+#pl-261 .so-panel:last-child,
+#pl-86 .so-panel:last-child {
+	margin-bottom: 0;
+}
+
+#pgc-261-5-1,
+#pgc-86-1-1 {
+	margin-left: 80px;
+	margin-right: 80px;
+}
+
+@media (max-width: 1024px) and (min-width: 781px) {
+	#pg-261-3.panel-no-style,
+	#pg-261-3.panel-has-style > .panel-row-style,
+	#pg-261-5.panel-no-style,
+	#pg-261-5.panel-has-style > .panel-row-style {
+		flex-wrap: nowrap;
+	}
+
+	#pg-261-3 > .panel-grid-cell,
+	#pg-261-3 > .panel-row-style > .panel-grid-cell,
+	#pg-261-5 > .panel-grid-cell,
+	#pg-261-5 > .panel-row-style > .panel-grid-cell {
+		flex: 0 1 50%;
+	}
+
+	#pg-86-1.panel-no-style,
+	#pg-86-1.panel-has-style > .panel-row-style {
+		flex-wrap: nowrap;
+	}
+
+	#pg-86-1 > .panel-grid-cell,
+	#pg-86-1 > .panel-row-style > .panel-grid-cell {
+		flex: 0 1 50%;
+	}
+}
+
+@media (max-width: 780px) {
+	#pg-261-0.panel-no-style,
+	#pg-261-0.panel-has-style > .panel-row-style,
+	#pg-261-1.panel-no-style,
+	#pg-261-1.panel-has-style > .panel-row-style,
+	#pg-261-2.panel-no-style,
+	#pg-261-2.panel-has-style > .panel-row-style,
+	#pg-261-3.panel-no-style,
+	#pg-261-3.panel-has-style > .panel-row-style,
+	#pg-261-4.panel-no-style,
+	#pg-261-4.panel-has-style > .panel-row-style,
+	#pg-261-5.panel-no-style,
+	#pg-261-5.panel-has-style > .panel-row-style,
+	#pg-261-6.panel-no-style,
+	#pg-261-6.panel-has-style > .panel-row-style {
+		flex-direction: column;
+	}
+
+	#pg-261-0 > .panel-grid-cell,
+	#pg-261-0 > .panel-row-style > .panel-grid-cell,
+	#pg-261-1 > .panel-grid-cell,
+	#pg-261-1 > .panel-row-style > .panel-grid-cell,
+	#pg-261-2 > .panel-grid-cell,
+	#pg-261-2 > .panel-row-style > .panel-grid-cell,
+	#pg-261-3 > .panel-grid-cell,
+	#pg-261-3 > .panel-row-style > .panel-grid-cell,
+	#pg-261-4 > .panel-grid-cell,
+	#pg-261-4 > .panel-row-style > .panel-grid-cell,
+	#pg-261-5 > .panel-grid-cell,
+	#pg-261-5 > .panel-row-style > .panel-grid-cell,
+	#pg-261-6 > .panel-grid-cell,
+	#pg-261-6 > .panel-row-style > .panel-grid-cell {
+		width: 100%;
+		margin-right: 0;
+	}
+
+	#pgc-261-1-0,
+	#pgc-261-3-0,
+	#pgc-261-3-1,
+	#pgc-261-3-2,
+	#pgc-261-5-0,
+	#pgc-261-5-1,
+	#pgc-261-6-0 {
+		margin-bottom: 30px;
+	}
+
+	#pl-261 .panel-grid-cell {
+		padding: 0;
+	}
+
+	#pgc-261-5-1 {
+		margin-left: 0;
+	}
+
+	.so-widget-sow-image-default-d6014b76747a .sow-image-container {
+		justify-content: center;
+	}
+
+	#pg-86-0.panel-no-style,
+	#pg-86-0.panel-has-style > .panel-row-style,
+	#pg-86-1.panel-no-style,
+	#pg-86-1.panel-has-style > .panel-row-style {
+		flex-direction: column;
+	}
+
+	#pg-86-0 > .panel-grid-cell,
+	#pg-86-0 > .panel-row-style > .panel-grid-cell,
+	#pg-86-1 > .panel-grid-cell,
+	#pg-86-1 > .panel-row-style > .panel-grid-cell {
+		width: 100%;
+		margin-right: 0;
+	}
+
+	#pgc-86-1-0,
+	#pgc-86-1-1 {
+		margin-bottom: 30px;
+		margin-left: 0;
+	}
+
+	#pl-86 .panel-grid-cell {
+		padding: 0;
+	}
+}
+
+.campus-image {
+	margin-top: 20px;
+}
+
+#pg-261-1 {
+	margin-top: 60px;
+}
+
+.bottom-spacer,
+#pg-86-0,
+#pl-86 .so-panel {
+	margin-bottom: 30px;
+}
+
+ol li {
+	margin-bottom: 5px;
+}
+
+#pgc-86-1-0,
+#pgc-86-1-1,
+#pgc-86-1-2 {
+	width: calc(33.3333% - (0.66666666666667 * 30px));
+}
+
+.so-widget-sow-image-default-4b231843ec72
+	.sow-image-container
+	.so-widget-image {
+	display: block;
+	max-width: 100%;
+	width: 100%;
+	height: auto;
+}
+
+.information-spacing {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+table td,
+table th,
+.campus-text,
+.site-main .entry-content p {
+	font-size: 16px;
+}

@@ -1,0 +1,128 @@
+/* Styling for Diploma page */
+
+#pgc-351-0-0,
+#pgc-351-1-0,
+#pgc-351-2-0,
+#pgc-351-5-0,
+#pgc-351-6-0 {
+	width: 100%;
+}
+
+#pg-351-0,
+#pg-351-1,
+#pg-351-2,
+#pg-351-3,
+#pg-351-4,
+#pg-351-5,
+#pl-351 .so-panel {
+	margin-bottom: 30px;
+}
+
+#pgc-351-3-0,
+#pgc-351-3-1 {
+	width: calc(50% - (0.5 * 30px));
+}
+
+#pgc-351-4-0 {
+	width: calc(50.0394% - (0.49960569787326 * 30px));
+}
+
+#pgc-351-4-1 {
+	width: calc(49.9606% - (0.50039430212674 * 30px));
+}
+
+#pl-351 .so-panel:last-child {
+	margin-bottom: 0;
+}
+
+#pg-351-4 {
+	column-gap: 50px;
+}
+
+@media (max-width: 780px) {
+	#pg-351-0.panel-no-style,
+	#pg-351-0.panel-has-style > .panel-row-style,
+	#pg-351-1.panel-no-style,
+	#pg-351-1.panel-has-style > .panel-row-style,
+	#pg-351-2.panel-no-style,
+	#pg-351-2.panel-has-style > .panel-row-style,
+	#pg-351-3.panel-no-style,
+	#pg-351-3.panel-has-style > .panel-row-style,
+	#pg-351-4.panel-no-style,
+	#pg-351-4.panel-has-style > .panel-row-style,
+	#pg-351-5.panel-no-style,
+	#pg-351-5.panel-has-style > .panel-row-style,
+	#pg-351-6.panel-no-style,
+	#pg-351-6.panel-has-style > .panel-row-style {
+		flex-direction: column;
+	}
+
+	#pg-351-0 > .panel-grid-cell,
+	#pg-351-0 > .panel-row-style > .panel-grid-cell,
+	#pg-351-1 > .panel-grid-cell,
+	#pg-351-1 > .panel-row-style > .panel-grid-cell,
+	#pg-351-2 > .panel-grid-cell,
+	#pg-351-2 > .panel-row-style > .panel-grid-cell,
+	#pg-351-3 > .panel-grid-cell,
+	#pg-351-3 > .panel-row-style > .panel-grid-cell,
+	#pg-351-4 > .panel-grid-cell,
+	#pg-351-4 > .panel-row-style > .panel-grid-cell,
+	#pg-351-5 > .panel-grid-cell,
+	#pg-351-5 > .panel-row-style > .panel-grid-cell,
+	#pg-351-6 > .panel-grid-cell,
+	#pg-351-6 > .panel-row-style > .panel-grid-cell {
+		width: 100%;
+		margin-right: 0;
+	}
+
+	#pg-351-0,
+	#pg-351-1,
+	#pg-351-2,
+	#pg-351-3,
+	#pg-351-4,
+	#pg-351-5,
+	#pg-351-6 {
+		margin-bottom: 30px;
+	}
+
+	#pgc-351-3-0,
+	#pgc-351-4-0 {
+		margin-bottom: 30px;
+	}
+
+	#pl-351 .panel-grid-cell {
+		padding: 0;
+	}
+}
+
+.course-table {
+	border: 1px solid black;
+}
+
+.courses-title {
+	margin-top: 15px;
+	margin-bottom: 35px;
+}
+
+a.highlight {
+	background-color: bisque;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.site-main .entry-content p {
+	font-size: 16px;
+}
+
+.tablepress td,
+.tablepress thead th {
+	font-size: 16px;
+}
+
+#pl-351 .panel-grid-cell {
+	margin-bottom: 10px;
+}
+
+#pg-351-6 {
+	margin-bottom: -40px;
+}

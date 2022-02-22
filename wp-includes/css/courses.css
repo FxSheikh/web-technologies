@@ -1,0 +1,82 @@
+/* styling for Courses page */
+
+#pgc-439-1-1,
+#pgc-439-3-1 {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+#pl-439 .so-panel:last-child {
+	margin-bottom: 0;
+}
+
+.para-spacing {
+	display: none;
+}
+
+@media (max-width: 1024px) and (min-width: 781px) {
+	#pg-439-1.panel-no-style,
+	#pg-439-1.panel-has-style > .panel-row-style,
+	#pg-439-3.panel-no-style,
+	#pg-439-3.panel-has-style > .panel-row-style {
+		flex-wrap: nowrap;
+	}
+
+	#pg-439-1 > .panel-grid-cell,
+	#pg-439-1 > .panel-row-style > .panel-grid-cell,
+	#pg-439-3 > .panel-grid-cell,
+	#pg-439-3 > .panel-row-style > .panel-grid-cell {
+		flex: 0 1 50%;
+	}
+}
+
+@media (max-width: 780px) {
+	#pg-439-0.panel-no-style,
+	#pg-439-0.panel-has-style > .panel-row-style,
+	#pg-439-1.panel-no-style,
+	#pg-439-1.panel-has-style > .panel-row-style,
+	#pg-439-2.panel-no-style,
+	#pg-439-2.panel-has-style > .panel-row-style,
+	#pg-439-3.panel-no-style,
+	#pg-439-3.panel-has-style > .panel-row-style {
+		flex-direction: column;
+	}
+
+	#pg-439-0 > .panel-grid-cell,
+	#pg-439-0 > .panel-row-style > .panel-grid-cell,
+	#pg-439-1 > .panel-grid-cell,
+	#pg-439-1 > .panel-row-style > .panel-grid-cell,
+	#pg-439-2 > .panel-grid-cell,
+	#pg-439-2 > .panel-row-style > .panel-grid-cell,
+	#pg-439-3 > .panel-grid-cell,
+	#pg-439-3 > .panel-row-style > .panel-grid-cell {
+		width: 100%;
+		text-align: center;
+	}
+
+	#pg-439-0,
+	#pg-439-1,
+	#pg-439-2,
+	#pg-439-3 {
+		margin-bottom: 0;
+	}
+
+	#pgc-439-1-1,
+	#pgc-439-3-1 {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.para-spacing {
+		display: block;
+	}
+}
+
+#pg-439-1,
+#pg-439-3 {
+	margin-top: 40px;
+}
+
+.site-main .entry-content p {
+	font-size: 16px;
+}

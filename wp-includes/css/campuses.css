@@ -1,0 +1,82 @@
+/* Styling for Campuses  page */
+
+#pgc-86-0-0 {
+	width: 100%;
+}
+
+#pg-86-0,
+#pl-86 .so-panel {
+	margin-bottom: 30px;
+}
+
+#pgc-86-1-0,
+#pgc-86-1-1,
+#pgc-86-1-2 {
+	width: calc(33.3333% - (0.66666666666667 * 30px));
+}
+
+#pl-86 .so-panel:last-child {
+	margin-bottom: 0;
+}
+
+#pgc-86-1-1 {
+	margin-left: 80px;
+	margin-right: 80px;
+}
+
+@media (max-width: 1024px) and (min-width: 781px) {
+	#pg-86-1.panel-no-style,
+	#pg-86-1.panel-has-style > .panel-row-style {
+		flex-wrap: nowrap;
+	}
+
+	#pg-86-1 > .panel-grid-cell,
+	#pg-86-1 > .panel-row-style > .panel-grid-cell {
+		flex: 0 1 50%;
+	}
+}
+
+@media (max-width: 780px) {
+	#pg-86-0.panel-no-style,
+	#pg-86-0.panel-has-style > .panel-row-style,
+	#pg-86-1.panel-no-style,
+	#pg-86-1.panel-has-style > .panel-row-style {
+		flex-direction: column;
+	}
+
+	#pg-86-0 > .panel-grid-cell,
+	#pg-86-0 > .panel-row-style > .panel-grid-cell,
+	#pg-86-1 > .panel-grid-cell,
+	#pg-86-1 > .panel-row-style > .panel-grid-cell {
+		width: 100%;
+		margin-right: 0;
+		text-align: center;
+	}
+
+	.courses-title {
+		text-align: center;
+	}
+
+	#pgc-86-1-0,
+	#pgc-86-1-1 {
+		margin-bottom: 30px;
+	}
+
+	#pgc-86-1-1 {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
+.course-table {
+	border: 1px solid black;
+}
+
+.courses-title {
+	margin-top: 15px;
+	margin-bottom: 35px;
+}
+
+.site-main .entry-content p {
+	font-size: 16px;
+}

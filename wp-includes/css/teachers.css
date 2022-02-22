@@ -1,0 +1,123 @@
+/* Styling for Teachers page */
+
+#pgc-394-0-0 {
+	width: 100%;
+}
+
+#pg-394-0,
+#pg-394-1,
+#pl-394 .so-panel {
+	margin-bottom: 30px;
+}
+
+#pgc-394-1-0,
+#pgc-394-1-1,
+#pgc-394-1-2,
+#pgc-394-2-0,
+#pgc-394-2-1,
+#pgc-394-2-2 {
+	width: calc(33.3333% - (0.66666666666667 * 60px));
+}
+
+#pl-394 .so-panel:last-child {
+	margin-bottom: 0;
+}
+
+#pgc-394-1-1,
+#pgc-394-2-1 {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+@media (max-width: 1024px) and (min-width: 781px) {
+	#pg-394-1.panel-no-style,
+	#pg-394-1.panel-has-style > .panel-row-style,
+	#pg-394-2.panel-no-style,
+	#pg-394-2.panel-has-style > .panel-row-style {
+		flex-wrap: nowrap;
+	}
+
+	#pg-394-1 > .panel-grid-cell,
+	#pg-394-1 > .panel-row-style > .panel-grid-cell,
+	#pg-394-2 > .panel-grid-cell,
+	#pg-394-2 > .panel-row-style > .panel-grid-cell {
+		flex: 0 1 50%;
+	}
+
+	#pgc-394-1-1,
+	#pgc-394-2-1 {
+		margin-left: 70px;
+		margin-right: 70px;
+	}
+}
+
+@media (max-width: 780px) {
+	#pg-394-0.panel-no-style,
+	#pg-394-0.panel-has-style > .panel-row-style,
+	#pg-394-1.panel-no-style,
+	#pg-394-1.panel-has-style > .panel-row-style,
+	#pg-394-2.panel-no-style,
+	#pg-394-2.panel-has-style > .panel-row-style {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	#pg-394-0 > .panel-grid-cell,
+	#pg-394-0 > .panel-row-style > .panel-grid-cell,
+	#pg-394-1 > .panel-grid-cell,
+	#pg-394-1 > .panel-row-style > .panel-grid-cell,
+	#pg-394-2 > .panel-grid-cell,
+	#pg-394-2 > .panel-row-style > .panel-grid-cell {
+		width: 100%;
+		margin-right: 0;
+	}
+
+	#pg-394-0,
+	#pg-394-1,
+	#pg-394-2 {
+		margin-bottom: 0;
+	}
+
+	#pgc-394-1-0,
+	#pgc-394-1-1,
+	#pgc-394-2-0,
+	#pgc-394-2-1 {
+		margin-bottom: 30px;
+	}
+
+	.so-widget-sow-image-default-d6014b76747a .sow-image-container {
+		justify-content: center;
+	}
+
+	.entry-title {
+		text-align: center;
+	}
+
+	#pgc-394-1-1,
+	#pgc-394-2-1 {
+		margin-left: 0;
+	}
+}
+
+.courses-title {
+	margin-top: 15px;
+	margin-bottom: 35px;
+}
+
+.so-widget-sow-image-default-4b231843ec72
+	.sow-image-container
+	.so-widget-image {
+	display: block;
+	max-width: 100%;
+	width: 100%;
+	height: auto;
+}
+
+.information-spacing {
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.site-main .entry-content p {
+	font-size: 16px;
+}

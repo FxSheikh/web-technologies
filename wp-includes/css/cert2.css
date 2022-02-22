@@ -1,0 +1,128 @@
+/* Styling for Certificate II page*/
+
+#pgc-303-0-0,
+#pgc-303-1-0,
+#pgc-303-2-0,
+#pgc-303-5-0,
+#pgc-303-6-0 {
+	width: 100%;
+}
+
+#pg-303-0,
+#pg-303-1,
+#pg-303-2,
+#pg-303-3,
+#pg-303-4,
+#pg-303-5,
+#pl-303 .so-panel {
+	margin-bottom: 30px;
+}
+
+#pgc-303-3-0,
+#pgc-303-3-1 {
+	width: calc(50% - (0.5 * 30px));
+}
+
+#pgc-303-4-0 {
+	width: calc(50.0394% - (0.49960569787326 * 30px));
+}
+
+#pgc-303-4-1 {
+	width: calc(49.9606% - (0.50039430212674 * 30px));
+}
+
+#pl-303 .so-panel:last-child {
+	margin-bottom: 0;
+}
+
+#pg-303-4 {
+	column-gap: 50px;
+}
+
+@media (max-width: 780px) {
+	#pg-303-0.panel-no-style,
+	#pg-303-0.panel-has-style > .panel-row-style,
+	#pg-303-1.panel-no-style,
+	#pg-303-1.panel-has-style > .panel-row-style,
+	#pg-303-2.panel-no-style,
+	#pg-303-2.panel-has-style > .panel-row-style,
+	#pg-303-3.panel-no-style,
+	#pg-303-3.panel-has-style > .panel-row-style,
+	#pg-303-4.panel-no-style,
+	#pg-303-4.panel-has-style > .panel-row-style,
+	#pg-303-5.panel-no-style,
+	#pg-303-5.panel-has-style > .panel-row-style,
+	#pg-303-6.panel-no-style,
+	#pg-303-6.panel-has-style > .panel-row-style {
+		flex-direction: column;
+	}
+
+	#pg-303-0 > .panel-grid-cell,
+	#pg-303-0 > .panel-row-style > .panel-grid-cell,
+	#pg-303-1 > .panel-grid-cell,
+	#pg-303-1 > .panel-row-style > .panel-grid-cell,
+	#pg-303-2 > .panel-grid-cell,
+	#pg-303-2 > .panel-row-style > .panel-grid-cell,
+	#pg-303-3 > .panel-grid-cell,
+	#pg-303-3 > .panel-row-style > .panel-grid-cell,
+	#pg-303-4 > .panel-grid-cell,
+	#pg-303-4 > .panel-row-style > .panel-grid-cell,
+	#pg-303-5 > .panel-grid-cell,
+	#pg-303-5 > .panel-row-style > .panel-grid-cell,
+	#pg-303-6 > .panel-grid-cell,
+	#pg-303-6 > .panel-row-style > .panel-grid-cell {
+		width: 100%;
+		margin-right: 0;
+	}
+
+	#pg-303-0,
+	#pg-303-1,
+	#pg-303-2,
+	#pg-303-3,
+	#pg-303-4,
+	#pg-303-5,
+	#pg-303-6 {
+		margin-bottom: 30px;
+	}
+
+	#pgc-303-3-0,
+	#pgc-303-4-0 {
+		margin-bottom: 30px;
+	}
+
+	#pl-303 .panel-grid-cell {
+		padding: 0;
+	}
+}
+
+.course-table {
+	border: 1px solid black;
+}
+
+.courses-title {
+	margin-top: 15px;
+	margin-bottom: 35px;
+}
+
+a.highlight {
+	background-color: bisque;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.site-main .entry-content p {
+	font-size: 16px;
+}
+
+.tablepress td,
+.tablepress thead th {
+	font-size: 16px;
+}
+
+#pl-303 .panel-grid-cell {
+	margin-bottom: 10px;
+}
+
+#pg-303-6 {
+	margin-bottom: -40px;
+}

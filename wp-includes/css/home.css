@@ -1,0 +1,56 @@
+/* Styling for Home page*/
+
+#pgc-57-0-0,
+#pgc-57-0-1,
+#pgc-57-0-2 {
+	width: calc(33.3333% - (0.66666666666667 * 30px));
+	font-size: 16px;
+}
+
+#pgc-57-0-1 {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+@media (max-width: 1024px) and (min-width: 781px) {
+	#pg-57-0.panel-no-style,
+	#pg-57-0.panel-has-style > .panel-row-style {
+		flex-wrap: nowrap;
+	}
+	#pg-57-0 > .panel-grid-cell,
+	#pg-57-0 > .panel-row-style > .panel-grid-cell {
+		flex: 0 1 50%;
+	}
+
+	#pgc-57-0-1 {
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+}
+
+@media (max-width: 780px) {
+	#pg-57-0.panel-no-style,
+	#pg-57-0.panel-has-style > .panel-row-style {
+		flex-direction: column;
+	}
+	#pg-57-0 > .panel-grid-cell,
+	#pg-57-0 > .panel-row-style > .panel-grid-cell {
+		width: 100%;
+		margin-right: 0;
+	}
+	#pgc-57-0-0,
+	#pgc-57-0-1 {
+		margin-bottom: 30px;
+	}
+
+	#pgc-57-0-1 {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
+@media (min-width: 1025px) {
+	.mast-gap {
+		text-align: justify;
+	}
+}
